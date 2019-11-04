@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43501" started-at="2019-11-04T10:23:57Z" finished-at="2019-11-04T10:24:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43501" started-at="2019-11-04T10:23:57Z" finished-at="2019-11-04T10:24:41Z">
+      <class name="com.training.sanity.tests.AddProductWithoutLoginTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="setUpBeforeClass" is-config="true" duration-ms="19200" started-at="2019-11-04T15:53:57Z" finished-at="2019-11-04T15:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="addProductWithoutLogin()[pri:0, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="addProductWithoutLogin" duration-ms="5404" started-at="2019-11-04T15:54:16Z" finished-at="2019-11-04T15:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductWithoutLogin -->
+        <test-method status="PASS" signature="validateCartMsgTest()[pri:1, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="validateCartMsgTest" duration-ms="692" started-at="2019-11-04T15:54:22Z" finished-at="2019-11-04T15:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartMsgTest -->
+        <test-method status="PASS" signature="clickViewCartBtnTest()[pri:2, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="clickViewCartBtnTest" duration-ms="12419" started-at="2019-11-04T15:54:22Z" finished-at="2019-11-04T15:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewCartBtnTest -->
+        <test-method status="PASS" signature="clickChkoutBtnTest()[pri:3, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="clickChkoutBtnTest" duration-ms="3414" started-at="2019-11-04T15:54:35Z" finished-at="2019-11-04T15:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickChkoutBtnTest -->
+        <test-method status="PASS" signature="getLoginPageTest()[pri:4, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="getLoginPageTest" duration-ms="484" started-at="2019-11-04T15:54:38Z" finished-at="2019-11-04T15:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="tearDown" is-config="true" duration-ms="1842" started-at="2019-11-04T15:54:39Z" finished-at="2019-11-04T15:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.AddProductWithoutLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
