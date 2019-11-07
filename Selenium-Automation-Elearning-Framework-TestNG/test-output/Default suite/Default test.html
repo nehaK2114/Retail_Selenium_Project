@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 04 15:53:57 IST 2019</td>
+<td>Started on:</td><td>Thu Nov 07 12:52:19 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>43 seconds (43501 ms)</td>
+<tr><td>Total time:</td><td>40 seconds (40621 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,126 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.training.sanity.tests.AdminProductTest.clickDiscountTabTest()'><b>clickDiscountTabTest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[@class=&apos;day active&apos;]&quot;}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JBGFHP8&apos;, ip: &apos;9.102.30.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NEHAKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e02cf4d6b409c22b58bea47b8b84f23b
+*** Element info: {Using=xpath, value=//td[@class=&apos;day active&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.training.pom.AdminProductPOM.clickEndDayicon(AdminProductPOM.java:225)
+	at com.training.sanity.tests.AdminProductTest.clickDiscountTabTest(AdminProductTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1375394559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1375394559'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[@class=&apos;day active&apos;]&quot;}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JBGFHP8&apos;, ip: &apos;9.102.30.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NEHAKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e02cf4d6b409c22b58bea47b8b84f23b
+*** Element info: {Using=xpath, value=//td[@class=&apos;day active&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.training.pom.AdminProductPOM.clickEndDayicon(AdminProductPOM.java:225)
+	at com.training.sanity.tests.AdminProductTest.clickDiscountTabTest(AdminProductTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>13</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,30 +195,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.training.sanity.tests.AddProductWithoutLoginTest.addProductWithoutLogin()'><b>addProductWithoutLogin</b><br>Test class: com.training.sanity.tests.AddProductWithoutLoginTest</td>
+<td title='com.training.sanity.tests.AdminProductTest.adminLoinTest()'><b>adminLoinTest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
 <td></td>
-<td>5</td>
-<td>com.training.sanity.tests.AddProductWithoutLoginTest@1593948d</td></tr>
+<td>1</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
 <tr>
-<td title='com.training.sanity.tests.AddProductWithoutLoginTest.clickChkoutBtnTest()'><b>clickChkoutBtnTest</b><br>Test class: com.training.sanity.tests.AddProductWithoutLoginTest</td>
+<td title='com.training.sanity.tests.AdminProductTest.clickCatatlogtabtest()'><b>clickCatatlogtabtest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
+<tr>
+<td title='com.training.sanity.tests.AdminProductTest.clickDashBtnTest()'><b>clickDashBtnTest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
+<tr>
+<td title='com.training.sanity.tests.AdminProductTest.clickDatatabtest()'><b>clickDatatabtest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
+<tr>
+<td title='com.training.sanity.tests.AdminProductTest.clickLinksTabTest()'><b>clickLinksTabTest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
+<tr>
+<td title='com.training.sanity.tests.AdminProductTest.clickProducttabtest()'><b>clickProducttabtest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
+<td></td>
+<td>4</td>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
+<tr>
+<td title='com.training.sanity.tests.AdminProductTest.clickRewardPointsTabTest()'><b>clickRewardPointsTabTest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
 <td></td>
 <td>3</td>
-<td>com.training.sanity.tests.AddProductWithoutLoginTest@1593948d</td></tr>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
 <tr>
-<td title='com.training.sanity.tests.AddProductWithoutLoginTest.clickViewCartBtnTest()'><b>clickViewCartBtnTest</b><br>Test class: com.training.sanity.tests.AddProductWithoutLoginTest</td>
-<td></td>
-<td>12</td>
-<td>com.training.sanity.tests.AddProductWithoutLoginTest@1593948d</td></tr>
-<tr>
-<td title='com.training.sanity.tests.AddProductWithoutLoginTest.getLoginPageTest()'><b>getLoginPageTest</b><br>Test class: com.training.sanity.tests.AddProductWithoutLoginTest</td>
+<td title='com.training.sanity.tests.AdminProductTest.validateSuccessmsgTest()'><b>validateSuccessmsgTest</b><br>Test class: com.training.sanity.tests.AdminProductTest</td>
 <td></td>
 <td>0</td>
-<td>com.training.sanity.tests.AddProductWithoutLoginTest@1593948d</td></tr>
-<tr>
-<td title='com.training.sanity.tests.AddProductWithoutLoginTest.validateCartMsgTest()'><b>validateCartMsgTest</b><br>Test class: com.training.sanity.tests.AddProductWithoutLoginTest</td>
-<td></td>
-<td>0</td>
-<td>com.training.sanity.tests.AddProductWithoutLoginTest@1593948d</td></tr>
+<td>com.training.sanity.tests.AdminProductTest@1b604f19</td></tr>
 </table><p>
 </body>
 </html>

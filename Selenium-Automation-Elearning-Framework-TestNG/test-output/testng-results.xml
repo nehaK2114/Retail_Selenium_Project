@@ -1,41 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43501" started-at="2019-11-04T10:23:57Z" finished-at="2019-11-04T10:24:41Z">
+  <suite name="Default suite" duration-ms="40621" started-at="2019-11-07T07:22:19Z" finished-at="2019-11-07T07:22:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43501" started-at="2019-11-04T10:23:57Z" finished-at="2019-11-04T10:24:41Z">
-      <class name="com.training.sanity.tests.AddProductWithoutLoginTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="setUpBeforeClass" is-config="true" duration-ms="19200" started-at="2019-11-04T15:53:57Z" finished-at="2019-11-04T15:54:16Z">
+    <test name="Default test" duration-ms="40621" started-at="2019-11-07T07:22:19Z" finished-at="2019-11-07T07:22:59Z">
+      <class name="com.training.sanity.tests.AdminProductTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="setUpBeforeClass" is-config="true" duration-ms="13270" started-at="2019-11-07T12:52:19Z" finished-at="2019-11-07T12:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="addProductWithoutLogin()[pri:0, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="addProductWithoutLogin" duration-ms="5404" started-at="2019-11-04T15:54:16Z" finished-at="2019-11-04T15:54:22Z">
+        <test-method status="PASS" signature="adminLoinTest()[pri:0, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="adminLoinTest" duration-ms="1946" started-at="2019-11-07T12:52:32Z" finished-at="2019-11-07T12:52:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProductWithoutLogin -->
-        <test-method status="PASS" signature="validateCartMsgTest()[pri:1, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="validateCartMsgTest" duration-ms="692" started-at="2019-11-04T15:54:22Z" finished-at="2019-11-04T15:54:22Z">
+        </test-method> <!-- adminLoinTest -->
+        <test-method status="PASS" signature="clickDashBtnTest()[pri:1, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickDashBtnTest" duration-ms="93" started-at="2019-11-07T12:52:34Z" finished-at="2019-11-07T12:52:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCartMsgTest -->
-        <test-method status="PASS" signature="clickViewCartBtnTest()[pri:2, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="clickViewCartBtnTest" duration-ms="12419" started-at="2019-11-04T15:54:22Z" finished-at="2019-11-04T15:54:35Z">
+        </test-method> <!-- clickDashBtnTest -->
+        <test-method status="PASS" signature="clickCatatlogtabtest()[pri:2, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickCatatlogtabtest" duration-ms="180" started-at="2019-11-07T12:52:34Z" finished-at="2019-11-07T12:52:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickViewCartBtnTest -->
-        <test-method status="PASS" signature="clickChkoutBtnTest()[pri:3, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="clickChkoutBtnTest" duration-ms="3414" started-at="2019-11-04T15:54:35Z" finished-at="2019-11-04T15:54:38Z">
+        </test-method> <!-- clickCatatlogtabtest -->
+        <test-method status="PASS" signature="clickProducttabtest()[pri:3, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickProducttabtest" duration-ms="4209" started-at="2019-11-07T12:52:34Z" finished-at="2019-11-07T12:52:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickChkoutBtnTest -->
-        <test-method status="PASS" signature="getLoginPageTest()[pri:4, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="getLoginPageTest" duration-ms="484" started-at="2019-11-04T15:54:38Z" finished-at="2019-11-04T15:54:39Z">
+        </test-method> <!-- clickProducttabtest -->
+        <test-method status="PASS" signature="clickDatatabtest()[pri:4, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickDatatabtest" duration-ms="722" started-at="2019-11-07T12:52:38Z" finished-at="2019-11-07T12:52:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLoginPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AddProductWithoutLoginTest@1593948d]" name="tearDown" is-config="true" duration-ms="1842" started-at="2019-11-04T15:54:39Z" finished-at="2019-11-04T15:54:41Z">
+        </test-method> <!-- clickDatatabtest -->
+        <test-method status="PASS" signature="clickLinksTabTest()[pri:5, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickLinksTabTest" duration-ms="749" started-at="2019-11-07T12:52:39Z" finished-at="2019-11-07T12:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinksTabTest -->
+        <test-method status="FAIL" signature="clickDiscountTabTest()[pri:6, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickDiscountTabTest" duration-ms="13794" started-at="2019-11-07T12:52:40Z" finished-at="2019-11-07T12:52:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='day active']"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JBGFHP8', ip: '9.102.30.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NEHAKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e02cf4d6b409c22b58bea47b8b84f23b
+*** Element info: {Using=xpath, value=//td[@class='day active']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='day active']"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JBGFHP8', ip: '9.102.30.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\NEHAKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e02cf4d6b409c22b58bea47b8b84f23b
+*** Element info: {Using=xpath, value=//td[@class='day active']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.training.pom.AdminProductPOM.clickEndDayicon(AdminProductPOM.java:225)
+	at com.training.sanity.tests.AdminProductTest.clickDiscountTabTest(AdminProductTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDiscountTabTest -->
+        <test-method status="PASS" signature="clickRewardPointsTabTest()[pri:7, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="clickRewardPointsTabTest" duration-ms="3690" started-at="2019-11-07T12:52:54Z" finished-at="2019-11-07T12:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRewardPointsTabTest -->
+        <test-method status="PASS" signature="validateSuccessmsgTest()[pri:8, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="validateSuccessmsgTest" duration-ms="157" started-at="2019-11-07T12:52:57Z" finished-at="2019-11-07T12:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessmsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminProductTest@1b604f19]" name="tearDown" is-config="true" duration-ms="1758" started-at="2019-11-07T12:52:58Z" finished-at="2019-11-07T12:52:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.AddProductWithoutLoginTest -->
+      </class> <!-- com.training.sanity.tests.AdminProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

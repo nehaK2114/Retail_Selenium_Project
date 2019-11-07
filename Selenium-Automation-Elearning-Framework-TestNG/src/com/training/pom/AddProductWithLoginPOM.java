@@ -36,7 +36,7 @@ public class AddProductWithLoginPOM {
 	@FindBy(xpath="//span[contains(text(),'Home')]")
 	private WebElement homeLink;
 	
-	@FindBy(linkText="SasmitaRing")
+	@FindBy(linkText="lacinia congue")
 	private WebElement product;
 	@FindBy(id="button-cart")
 	private WebElement addToCart;
@@ -61,6 +61,9 @@ private WebElement chkoutbtn;
 	
 	@FindBy(id="button-shipping-method")
 	private WebElement deliverMethodbtn;
+	
+	@FindBy(xpath="//div[@id='collapse-payment-method']//textarea[@name='comment']")
+	private WebElement paymentcommentArea;
 	
 	@FindBy(css="#button-payment-method")
 	private WebElement paymentbtn;
@@ -141,9 +144,11 @@ private WebElement chkoutbtn;
 		WebDriverWait wait=(new WebDriverWait(driver,10));
 		wait.until(ExpectedConditions.elementToBeClickable(chkbox)).click();
 		
-		
-		
-		
+		}
+	
+	public void addcommentYourOrder(String ptext){
+		this.paymentcommentArea.clear();
+		this.paymentcommentArea.sendKeys(ptext);
 	}
 	
 	public void clickConfirmBtn() {

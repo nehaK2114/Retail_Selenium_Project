@@ -111,6 +111,7 @@ public class AddProductWithLoginTest {
 	
 	@Test(priority=8)
 	public void clickChkboxbtnTest(){
+		addProductWithLoginPom.addcommentYourOrder("Order should be delivered safely");
 		addProductWithLoginPom.clickCheckbox();
 		System.out.println("I have read and agree to the Terms & Conditions checkbox should be selected");
 		screenShot.captureScreenShot("clicked on chkecbox");

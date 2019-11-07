@@ -20,7 +20,7 @@ public class AddProductWithoutLoginPom {
 		
 	}
 	
-	@FindBy(linkText="SasmitaRing")
+	@FindBy(linkText="lacinia congue")
 	private WebElement product;
 	@FindBy(id="button-cart")
 	private WebElement addToCart;
